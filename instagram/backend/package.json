@@ -1,0 +1,18 @@
+{
+    "name": "backend",
+    "version": "1.0.0",
+    "description" "",
+    "main": "idex.js"
+    "license": "MIT",
+    "scripts": {
+        "dev": "nodemon src/idex.js"
+    },
+    "dependenciaes": {
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "mongoose": "^5.5.14",
+        "multer": "1.19.1",
+        "sharp": "0.22.1",
+        "sockt.io": "^2.2.0"
+    }
+}
